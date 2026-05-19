@@ -21,7 +21,7 @@ function App() {
     });
   }
   return (
-    <div>
+    <main>
       <Header />
       <CreateArea onAdd={addItem} />
       {notes.map((todo, index) => (
@@ -34,7 +34,7 @@ function App() {
         />
       ))}
       <Footer />
-    </div>
+    </main>
   );
 }
 
